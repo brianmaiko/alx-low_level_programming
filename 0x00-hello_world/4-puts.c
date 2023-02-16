@@ -1,7 +1,7 @@
 #include <studio.h>
 /**
- * main - A betty compliant program that prints a line using puts function
- * Return: 0
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
