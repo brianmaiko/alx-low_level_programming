@@ -1,6 +1,6 @@
-#include <studio.h>
+#include <stdio.h>
 /**
- * main - Entry point
+ * main - Program that uses puts
  * Return: Always 0 (Success)
  */
 int main(void)
