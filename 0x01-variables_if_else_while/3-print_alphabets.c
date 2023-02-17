@@ -1,9 +1,4 @@
-#include <stdlib>
-#include <time.h>
 #include <(stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
  * main -Entry point
  *
@@ -11,23 +6,23 @@
  */
 int main(void)
 {
-	int n;
+	char c;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes here */
+	char d;
 
-	int n;
-
-	for (n = 0; n < 26; n++)
-	{
-	putchar('a' + n);
-	}
-	for (n = 0; n < 26; n++)
-	{
-	putchar('A' + n);
-	}
-	putchar('\n');
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'Z') {
+			putchar(d);
+			d++;
+		}
+	putchar('\n')
 
 	return (0);
 }
