@@ -2,7 +2,7 @@
 
 /**
  * binary_to_uint - converts a binary number to an unsigned int.
- * @b: binary string.
+ * @b: pointer to binary string.
  *
  * Return: converted number as an unsigned int.
  */
@@ -17,9 +17,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (*b != '0' && *b != '1')
 			return (0);
-		num <<= 1;
-		if (*b == '1')
-			num += 1;
+		num = (num <<= 1) | (*b - '0');
 	}
 	return (num);
 }
